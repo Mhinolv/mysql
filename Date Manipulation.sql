@@ -8,3 +8,8 @@ select
 	, date(now()) as today_2 -- Converts datetime to date
 	, datediff(order_date, now()) as order_days_from_today -- Surfaces difference of days between two date fields
 from orders
+
+/*
+To find about more about date and datetime functions visit:
+https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_adddate
+*/
